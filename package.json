@@ -1,0 +1,16 @@
+{
+  "name": "loreal-chatbot-local",
+  "version": "1.0.0",
+  "description": "Local dev server and OpenAI proxy for L'Oréal chatbot",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.1.4"
+  }
+}
