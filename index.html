@@ -59,8 +59,13 @@
       </footer>
     </div>
 
-    <!-- secrets.js can be removed when using Cloudflare Workers for API requests -->
-    <script src="secrets.js"></script>
+    <!-- secrets.js removed for security; keep API keys only in your Cloudflare Worker environment -->
+
+    <div class="debug-toggle" style="text-align:center;margin:8px 0;">
+      <input type="checkbox" id="debugToggle" />
+      <label for="debugToggle">Show debug errors</label>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
