@@ -9,7 +9,7 @@ const debugToggleEl = document.getElementById("debugToggle");
 
 // Use the deployed Cloudflare Worker for API requests (user-provided).
 // If you prefer local testing, change this to "/api/chat" and run the local proxy.
-const WORKER_URL="https://ai-chatbot.gyeninkk.workers.dev/api/chat";
+const WORKER_URL="https://ai-chatbot.gyeninkk.workers.dev/";
 
 /* Initial greeting */
 chatWindow.textContent =
